@@ -1,0 +1,26 @@
+{
+  "name": "@wisemen/eslint-config-test-vue",
+  "version": "0.0.2",
+  "description": "",
+  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@wisemen/eslint-config-test-basic": "workspace:*",
+    "@wisemen/eslint-config-test-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.10.0",
+    "local-pkg": "^0.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0"
+  }
+}
